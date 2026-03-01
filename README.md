@@ -14,10 +14,10 @@ This repository is for **educational purposes only**. All scripts and tools are 
 
 ## 📦 What's Included
 
-- **REFramework (dinput8.dll)** – The core modding framework for RE Engine games [citation:2][citation:4][citation:10]
+- **REFramework (dinput8.dll)** – The core modding framework for RE Engine games
 - **Essential Lua Scripts**:
   - `fov_slider.lua` – Adjust Field of View beyond game limits
-  - `disable_film_grain.lua` – Remove distracting film grain effect [citation:1][citation:3][citation:8]
+  - `disable_film_grain.lua` – Remove distracting film grain effect
   - `disable_vignette.lua` – Remove dark edges around screen
   - `performance_boost.lua` – Optimize settings for higher FPS
   - `ultrawide_fix.lua` – Proper ultrawide support (21:9, 32:9)
@@ -78,7 +78,7 @@ After installation, all scripts are enabled by default. You can configure them v
 | Game crashes on startup | Remove `dinput8.dll` temporarily. Update to latest REFramework build. |
 | REFramework menu doesn't open | Press **Insert** key. Check if `dinput8.dll` is in the correct folder. |
 | Scripts not loading | Ensure scripts are in `reframework/autorun/` folder. Check Lua syntax errors in log file. |
-| Ultrawide cutscenes have black bars | Enable "Ultrawide Fix" in REFramework → Display menu [citation:1]. |
+| Ultrawide cutscenes have black bars | Enable "Ultrawide Fix" in REFramework → Display menu. |
 | Auto‑installer flagged by antivirus | Temporarily disable AV or add to exclusions – it's a false positive. |
 
 ---
